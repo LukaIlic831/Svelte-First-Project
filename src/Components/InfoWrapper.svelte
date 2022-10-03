@@ -7,7 +7,7 @@
 </script>
 
 <div class="info__wrapper">
-  <div transition:scale>
+  <div in:scale>
     <InfoBlock {selectedAccount} {chainId} />
   </div>
 </div>
